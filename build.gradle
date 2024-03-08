@@ -16,6 +16,8 @@ repositories {
 }
 
 dependencies {
+	// 소스 코드 변경시 자동으로 페이지 리로드 해주는 라이브러리
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
